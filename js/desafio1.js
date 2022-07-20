@@ -10,6 +10,11 @@ while(clave === "5"){
         console.log("Resultado" + " " + operacion)
         numero = operacion
     }
+    
     clave = prompt("Ingrese de nuevo la clave para volver a comenzar, indique una clave erronea para finalizar")
- }
+    
+    if(clave !== "5"){
+        console.log("FInalizar programa...")
+    }
+}
  
